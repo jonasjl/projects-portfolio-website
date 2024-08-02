@@ -1,11 +1,11 @@
 import React from "react";
 
-interface PageProps {
+interface HeaderProps {
   title: string;
-  text: string;
+  text?: string;
 }
 
-export const Page: React.FC<PageProps> = ({ title, text }) => {
+export const Header: React.FC<HeaderProps> = ({ title, text }) => {
   return (
     <div>
       <h1>{title}</h1>

@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import "./index.css";
-// import { Home } from "./components/Home/Home";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
-import { Page } from "./components/Page/Page";
+// import { Header } from "./components/Header/Header";
+import { Home } from "./components/Home/Home";
 
 // Example components for different routes
 // const Home = () => <h1>Home Page</h1>;
@@ -17,7 +17,7 @@ export const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Page {} />} />
+        <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -1,10 +1,10 @@
 import React from "react";
+import { Header } from "../Header/Header";
 
 export const Home: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to Our Application</h1>
-      <p>This is the main landing page.</p>
+      <Header title="Welcome to Our Application" text="This is the main landing page"/>
       {/* Add more content and components as needed */}
     </div>
   );

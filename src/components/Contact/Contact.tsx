@@ -1,9 +1,11 @@
 import React from "react";
+import { Header } from "../Header/Header";
+
 
 export const Contact: React.FC = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
+      <Header title={"Contact us"}/>
       <form>
         <label>
           Name:

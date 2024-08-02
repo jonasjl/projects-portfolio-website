@@ -1,10 +1,10 @@
 import React from "react";
+import { Header } from "../Header/Header";
 
 export const About: React.FC = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>Learn more about our company and team.</p>
+      <Header title="About Us" text="Learn more about our company and team"/>
       {/* Add more content and components as needed */}
     </div>
   );
