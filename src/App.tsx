@@ -6,10 +6,6 @@ import { Contact } from "./components/Contact/Contact";
 // import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 
-// Example components for different routes
-// const Home = () => <h1>Home Page</h1>;
-// const About = () => <h1>About Page</h1>;
-// const Contact = () => <h1>Contact Page</h1>;
 
 export const App = () => {
   return (

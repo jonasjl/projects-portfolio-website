@@ -5,7 +5,6 @@ export const Home: React.FC = () => {
   return (
     <div>
       <Header title="Welcome to Our Application" text="This is the main landing page"/>
-      {/* Add more content and components as needed */}
     </div>
   );
 };
